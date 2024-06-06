@@ -1,0 +1,292 @@
+
+/*Form CSS*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+br {
+    display: none; /* Hides the <br> tags used for spacing */
+}
+
+
+
+/*Nav Bar*/
+/*ul {*/
+/*    list-style-type: none;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    overflow: hidden;*/
+/*    background-color: #333;*/
+/*}*/
+
+/*li {*/
+/*    float: left;*/
+/*    border-right: 1px solid #bbb;*/
+/*}*/
+
+/*li:last-child {*/
+/*    border-right: none;*/
+/*}*/
+
+/*li a {*/
+/*    display: block;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    padding: 14px 16px;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*li a:hover:not(.active) {*/
+/*    background-color: #111;*/
+/*}*/
+
+/*.active {*/
+/*    background-color: #04AA6D;*/
+/*}*/
+
+/*.login-user {*/
+/*    height: 1em;*/
+/*    margin-right: 0.5em;*/
+/*    vertical-align: bottom;*/
+/*}*/
+
+/*!*CSS for Table*!*/
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    background-color: #f4f4f4;*/
+/*    margin: 0;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*table {*/
+/*    width: 100%;*/
+/*    border-collapse: collapse;*/
+/*    margin-bottom: 20px;*/
+/*    background-color: #fff;*/
+/*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*caption {*/
+/*    caption-side: top;*/
+/*    font-size: 1.5em;*/
+/*    margin: 10px 0;*/
+/*    color: #333;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*thead th {*/
+/*    background-color: #007BFF;*/
+/*    color: white;*/
+/*    padding: 10px;*/
+/*    text-align: left;*/
+/*}*/
+
+/*tbody tr:nth-child(even) {*/
+/*    background-color: #f2f2f2;*/
+/*}*/
+
+/*tbody td {*/
+/*    padding: 10px;*/
+/*    border-bottom: 1px solid #ddd;*/
+/*}*/
+
+/*tbody tr:hover {*/
+/*    background-color: #e9e9e9;*/
+/*}*/
+
+
+/* Pseudo Elements*/
+/*p::before{*/
+/*    content: "Note";*/
+/*    color: red;*/
+/*}*/
+
+
+/*div::after {*/
+/*    content: " [End of div content]";*/
+/*    background-color: yellow;*/
+/*}*/
+
+/*div::first-line {*/
+/*    color: blue;*/
+/*}*/
+
+/*div::first-letter {*/
+/*    font-size: 2em;*/
+/*    color: red;*/
+/*}*/
+
+
+
+/*!*nth-child *!*/
+/*li:nth-child(1) { color: blue; }*/
+/*li:nth-child(2) { color: green; }*/
+/*li:nth-child(3) { color: orange; }*/
+
+
+
+
+/*!*last -child Pseudo class*!*/
+/*p:last-child {*/
+/*    background: pink;*/
+/*}*/
+
+
+
+
+
+
+/*frist-child Pseudo class
+ */
+/*p:first-child {*/
+/*    background: lightgreen;*/
+/*}
+
+
+
+/*!**/
+/*Pseudo Class in CSS*/
+/* *!*/
+
+/*!*unvisited link*!*/
+/*a:link{*/
+/*    color:red;*/
+/*}*/
+
+/*!* Visited link*!*/
+/*a:visited{*/
+/*    color:green;*/
+/*}*/
+
+/*!* mouse over link*!*/
+/*a:hover{*/
+/*    color:hotpink;*/
+/*}*/
+
+/*!*selected link*!*/
+/*a:active{*/
+/*    color:blue;*/
+/*}*/
+
+
+
+
+
+/*
+Simple Selector using (.) class and (#) id
+ */
+
+/*.container p{*/
+/*    color: blue;*/
+/*}*/
+
+/*.menu > li{*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*#main-title + p{*/
+/*    color: red;*/
+/*}*/
+
+/*#section-header ~ p{*/
+/*    color:green;*/
+/*}*/
+
+
+
+
+/*Simple Selector Combinators*/
+/* 1. Descendant Selector*/
+/*div p{*/
+/*    color:blue;*/
+/*}*/
+
+/*!* 2 Child Selector *!*/
+/*ul > li {*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*!* 3 Adjacent Sibling Selector *!*/
+/*h1 + p {*/
+/*    color: red;*/
+/*}*/
+
+/*!* 4 General Sibling Selector *!*/
+/*h2 ~ p {*/
+/*    color: green;*/
+/*}*/
+
+
+
+/*!* Element Type Selectors  This is a single-line comment *!*/
+/*!* This is a*/
+/*multi-line*/
+/*comment *!*/
+
+/*body{*/
+/*    background-color: blueviolet;*/
+/*    color: black;*/
+/*    font-size: 1.1em;*/
+/*}*/
+
+/*h1{*/
+/*    color:coral;*/
+/*}*/
+
+/*#intro{*/
+/*    font-size: 1.3em;*/
+/*}*/
+
+/*.colorful{*/
+/*    color:orange;*/
+/*}*/
+
+/*section{*/
+/*    border: 5px solid black;*/
+/*    padding: 10px;*/
+/*    background-color:#dbfffe ;*/
+/*}*/
