@@ -1,56 +1,153 @@
-
-/*Form CSS*/
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+/*absolute positoning*/
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
 }
 
-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    margin: 0 auto;
-}
+.exampleBox {
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
 
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
 }
+/*!*fixed position*!*/
 
-input[type="text"],
-input[type="password"] {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
+/*body {*/
+/*    height: 10000px;*/
+/*}*/
 
-fieldset {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 3px;
-}
+/*div {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border: 1px solid;*/
+/*}*/
 
-legend {
-    padding: 0 10px;
-    font-weight: bold;
-}
+/*.exampleBox {*/
+/*    background-color: lightcoral;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    position: fixed;*/
+/*    !*bottom = 25px;*!*/
+/*}*/
 
-input[type="checkbox"],
-input[type="radio"] {
-    margin-right: 10px;
-}
 
-br {
-    display: none; /* Hides the <br> tags used for spacing */
-}
+
+
+/*relative poisiton*/
+
+/*div {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border: 1px solid;*/
+/*}*/
+
+/*.exampleBox {*/
+/*    background-color: lightcoral;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    position: relative;*/
+/*    top: 45px;*/
+/*}*/
+
+/*block */
+/*.block, .block div {*/
+/*    display: block;*/
+/*}*/
+
+/*.block {*/
+/*    margin-top: 10px;*/
+/*    background-color: white;*/
+/*    width: 210px;*/
+/*    height: 205px;*/
+/*    border: 3px dashed red;*/
+/*}*/
+/*!****** Child divs ******!*/
+/*.block div {*/
+/*    !*width: 100px;*!*/
+/*    height: 100px;*/
+/*    border: 1px solid #000;*/
+/*    background-color: lightgreen;*/
+
+/*}*/
+
+/*inline block*/
+/*.inlineBlock, div{*/
+/*    display: inline-block;*/
+/*}*/
+
+/*!*parent div*!*/
+/*.inlineBlock {*/
+/*    margin-top: 10px;*/
+/*    background-color: white;*/
+/*    !******     Change width to 410px for inline example  ******!*/
+/*    width: 210px;*/
+/*    height: 205px;*/
+/*    border: 3px dashed red;*/
+/*}*/
+
+/*!****** Child divs ******!*/
+/*.inlineBlock div {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border: 1px solid #000;*/
+/*    background-color: aqua;*/
+/*}*/
+
+/*!*Form CSS*!*/
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    background-color: #f4f4f4;*/
+/*    margin: 0;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*form {*/
+/*    background-color: #fff;*/
+/*    padding: 20px;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+/*    max-width: 500px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*label {*/
+/*    display: block;*/
+/*    margin-bottom: 8px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*input[type="text"],*/
+/*input[type="password"] {*/
+/*    width: calc(100% - 22px);*/
+/*    padding: 10px;*/
+/*    margin-bottom: 15px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*fieldset {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 15px;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*legend {*/
+/*    padding: 0 10px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*input[type="checkbox"],*/
+/*input[type="radio"] {*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*br {*/
+/*    display: none; !* Hides the <br> tags used for spacing *!*/
+/*}*/
 
 
 

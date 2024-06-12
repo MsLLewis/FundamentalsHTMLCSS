@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .flex-container-space-between, .flex-container-center, .flex-container-around, .flex-container-evenly{
+            display: flex;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            align-items: stretch;
+        }
+
+        .flex-container-space-between {
+            justify-content: space-between; /* Distribute items evenly, with space between them */
+            background-color: #f0f0f0;
+        }
+
+        .flex-container-center {
+            justify-content: center; /* Center items horizontally */
+            background-color: #e0e0e0;
+        }
+
+        .flex-container-around {
+            justify-content: space-around; /* Center items horizontally */
+            background-color: #e0e0e0;
+        }
+        .flex-container-evenly {
+            justify-content: space-evenly; /* Center items horizontally */
+            background-color: #e0e0e0;
+        }
+
+        .flex-item {
+            margin: 5px;
+            padding: 20px;
+            background-color: lightcoral;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="flex-container-space-between">
+    <div class="flex-item">Item 1 between</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
+    <div class="flex-item">Item 4</div>
+    <div class="flex-item">Item 5</div>
+    </div>
+
+
+<div class="flex-container-center">
+    <div class="flex-item">Item 1 center</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
+    <div class="flex-item">Item 4</div>
+    <div class="flex-item">Item 5</div>
+</div>
+
+<div class="flex-container-around">
+    <div class="flex-item">Item 1 space-around</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
+    <div class="flex-item">Item 4</div>
+    <div class="flex-item">Item 5</div>
+</div>
+
+<div class="flex-container-evenly">
+    <div class="flex-item">Item 1 evenly</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
+    <div class="flex-item">Item 4</div>
+    <div class="flex-item">Item 5</div>
+</div>
+
+
+</body>
+</html>
